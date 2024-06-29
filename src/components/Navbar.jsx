@@ -15,21 +15,15 @@ const Navbar = () => {
               Home
             </Link>
           </li>
+
           <li>
-            <details>
-              <summary>Parent</summary>
-              <ul className="bg-base-100 rounded-t-none p-2">
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
-                </li>
-                <li>
-                  <Link to="/articles">Articles</Link>
-                </li>
-              </ul>
-            </details>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li>
+            <Link to="/articles">Articles</Link>
           </li>
         </ul>
       </div>
